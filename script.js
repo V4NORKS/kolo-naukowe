@@ -45,11 +45,11 @@ function initGallery(galleryId, images) {
         updateImage();
     });
 
-    // Automatyczna zmiana zdjęcia co 60 sekund
+    // Automatyczna zmiana zdjęcia co 120 sekund
     setInterval(() => {
         currentIndex = (currentIndex + 1) % images.length;
         updateImage();
-    }, 60000); // 60000 ms = 60 sekund
+    }, 120000); // 120000 ms = 120 sekund
 }
 
 // Inicjalizacja galerii dla poszczególnych sekcji
