@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koło Naukowe - RriDr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Koło Naukowe - Renaturyzacja Rzek i Dolin rzecznych</h1>
+        <nav>
+            <div class="dropdown">
+                <button class="dropdown-button">Obozy</button>
+                <div class="dropdown-content">
+                    <button class="tab-button" data-tab="section-nida">Nida - Lipiec 2024</button>
+                    <button class="tab-button" data-tab="section-klimkowka">Klimkówka - Wrzesień 2024</button>
+                </div>
+            </div>
+            <button class="tab-button" data-tab="section-sprzet">Sprzęt</button>
+            <button class="tab-button" data-tab="section-o-nas">O nas</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sekcja Nida -->
+        <section id="section-nida" class="tab-content active">
+            <h2>Nida - Lipiec 2024</h2>
+            <p>Opis obozu nad Nidą.</p>
+            <div id="gallery-nida" class="gallery">
+                <button class="arrow prev">&lt;</button>
+                <img src="images/img1.jpg" alt="Zdjęcie obozu Nida">
+                <button class="arrow next">&gt;</button>
+            </div>
+        </section>
+
+        <!-- Sekcja Klimkówka -->
+        <section id="section-klimkowka" class="tab-content">
+            <h2>Klimkówka - Wrzesień 2024</h2>
+            <p>Opis obozu nad Klimkówką.</p>
+            <div id="gallery-klimkowka" class="gallery">
+                <button class="arrow prev">&lt;</button>
+                <img src="images/klimkowka1.jpg" alt="Zdjęcie obozu Klimkówka">
+                <button class="arrow next">&gt;</button>
+            </div>
+        </section>
+
+        <!-- Sekcja Sprzęt -->
+        <section id="section-sprzet" class="tab-content">
+            <h2>Sprzęt</h2>
+            <p>Opis sprzętu wykorzystywanego przez koło naukowe.</p>
+        </section>
+
+        <!-- Sekcja O nas -->
+        <section id="section-o-nas" class="tab-content">
+            <h2>O nas</h2>
+            <p>Opis działalności koła naukowego.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
