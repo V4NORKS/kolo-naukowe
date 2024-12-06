@@ -17,7 +17,7 @@ function updateImageWithEffect(imageElement, newSrc) {
     setTimeout(() => {
         imageElement.src = newSrc; // Zmień obraz po krótkim czasie
         imageElement.classList.remove("fade-in"); // Usuń efekt po zakończeniu
-    }, 250); // Połowa czasu trwania animacji
+    }, 1000); // Połowa czasu trwania animacji
 }
 
 // OPIS: Funkcja do inicjalizacji galerii (zmiana zdjęć, strzałki, automatyczne przewijanie).
@@ -58,11 +58,23 @@ initGallery("gallery-nida", [
     "images/img2.jpg",
     "images/img3.jpg",
     "images/img4.jpg",
-    "images/img5.jpg"
+    "images/img5.jpg",
+    "images/img6.jpg",
+    "images/img7.jpg",
+    "images/img8.jpg",
+    "images/img9.jpg",
+    "images/img10.jpg",
 ]);
 
 initGallery("gallery-klimkowka", [
     "images/klimkowka1.jpg",
     "images/klimkowka2.jpg",
-    "images/klimkowka3.jpg"
+    "images/klimkowka3.jpg",
+    "images/klimkowka4.jpg",
+    "images/klimkowka5.jpg",
+    "images/klimkowka6.jpg",
+    "images/klimkowka7.jpg",
+    "images/klimkowka8.jpg",
+    "images/klimkowka9.jpg",
+    "images/klimkowka10.jpg",
 ]);
